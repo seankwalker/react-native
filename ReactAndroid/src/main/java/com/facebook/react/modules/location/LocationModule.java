@@ -72,7 +72,7 @@ public class LocationModule extends ReactContextBaseJavaModule {
   private static class LocationOptions {
     private final long timeout;
     private final double maximumAge;
-    private final boolean highAccuracy;
+    private final boolean highAccuracy = true;
     private final float distanceFilter;
 
     private LocationOptions(
